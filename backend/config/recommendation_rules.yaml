@@ -1,0 +1,43 @@
+recommendation_rules:
+  High-Value Premium Customers:
+    recommendation: "Invite to Wealth Management Portfolio Review & Offer Premium Credit Card upgrades."
+    expected_benefit: "Increase assets under management (AUM) and high-value credit card interchange fee revenue."
+    products:
+      - "Wealth Management Consultation"
+      - "Exclusive Premium Credit Card"
+      - "Custom Investment Portfolio Options"
+  Dormant Customers:
+    recommendation: "Launch reactivation email campaign with cashback incentives and card fee-waiver promotions."
+    expected_benefit: "Recover inactive customer balances and restore transaction volume velocities."
+    products:
+      - "Reactivation Cashback Reward"
+      - "Annual Fee-Waiver Promotions"
+      - "Dormant Reactivation Check-In Email"
+  Frequent Small Spenders:
+    recommendation: "Promote Cashback Credit Card and enroll in Transaction Tier reward point loyalty programs."
+    expected_benefit: "Maximize transaction counts and grow retail merchant volume margins."
+    products:
+      - "Cashback Credit Card"
+      - "Retail Reward Points Program"
+      - "Digital Wallet Top-Up Discounts"
+  High Income Low Activity:
+    recommendation: "Offer High-Yield Fixed Deposits and set up a Personal Financial Advisor call."
+    expected_benefit: "Lock in idle customer balances into longer-term high-yield account balances."
+    products:
+      - "High-Yield Fixed Deposit Promotion"
+      - "Personal Wealth Advisory Call"
+      - "Auto-Save Sweep Account Options"
+  Active Digital Transactors:
+    recommendation: "Push mobile wallet balance rewards and offer pre-approved digital loans."
+    expected_benefit: "Deepen mobile application engagement and expand digital loan lending interest margins."
+    products:
+      - "Mobile App Wallet Upgrade"
+      - "Pre-Approved Digital Loan Offer"
+      - "Online Bill-Pay Loyalty Program"
+  Standard Customers:
+    recommendation: "Promote Savings Planner tools and basic loyalty reward point credit card upgrades."
+    expected_benefit: "Gradually grow customer savings balances and client satisfaction indicators."
+    products:
+      - "Savings Planner Dashboard Tool"
+      - "Basic Credit Card Upgrade"
+      - "Loyalty Reward Points Program"

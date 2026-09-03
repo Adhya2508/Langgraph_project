@@ -1,0 +1,50 @@
+# ──────────────────────────────────────────────────────────────────
+# Bank Customer Segmentation Agent — .gitignore
+# ──────────────────────────────────────────────────────────────────
+
+# ─── Secrets & Environment ──────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ─── Python ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual Environments ────────────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ─── Build / Distribution ────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─── Outputs & Uploads (runtime data) ───────────────────────
+backend/outputs/
+backend/uploads/
+
+# ─── Logs ───────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── IDEs & Editors ─────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# ─── Test & Coverage ─────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+

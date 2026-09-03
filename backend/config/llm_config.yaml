@@ -1,0 +1,22 @@
+# backend/config/llm_config.yaml
+# ──────────────────────────────
+# Default model behaviour configuration for the LLM layer.
+#
+# Rules:
+#   - API keys NEVER go here — they belong in .env
+#   - Values here serve as defaults; .env overrides take precedence
+#     when the LLM factory reads from settings.
+#   - This file is safe to commit to source control.
+
+provider: mistral
+model: mistral-small-latest
+
+# Sampling parameters
+temperature: 0.2
+max_tokens: 2048
+top_p: 0.95
+
+# Network behaviour
+timeout: 60          # seconds before HTTP request is abandoned
+retry_attempts: 3    # number of retry attempts on transient failures
+retry_delay: 2.0     # seconds between retries (exponential backoff base)

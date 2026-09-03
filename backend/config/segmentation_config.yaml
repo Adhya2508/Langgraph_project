@@ -1,0 +1,13 @@
+segmentation:
+  algorithm: "auto"              # Options: "kmeans", "dbscan", "auto"
+  scaling_method: "standard"     # Options: "standard", "minmax"
+  random_state: 42
+  evaluation_metric: "silhouette"
+  
+  kmeans:
+    min_clusters: 2
+    max_clusters: 8
+    
+  dbscan:
+    eps: 0.5
+    min_samples: 5
